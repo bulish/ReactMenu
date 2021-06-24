@@ -1,0 +1,21 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(3.8rem, 10vw, 13rem);
+    font-family: 'Stint Ultra Condensed', cursive;
+    &:nth-child(1){
+        background-color: black;
+        color: white;
+    }
+    &:nth-child(2){
+        background-color: white;
+        color: black;
+    }
+    &:nth-child(3){
+        background-color: rgb(14, 62, 102);
+        color:white;
+    }
+}
